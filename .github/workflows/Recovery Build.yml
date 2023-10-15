@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/Shiotawa/android_device_tecno_TECNO-CK7n'
+        default: 'https://github.com/Shiotawa/android_device_tecno_tecno-CK7n'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'ck7n'
+        default: 'main'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
