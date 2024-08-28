@@ -14,25 +14,27 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/Shiotawa/android_device_tecno-CK7n'
+        default: 'https://github.com/Shiotawa/twrp-device_tecno_TECNO-CK7n.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'main'
+        default: 'fox_12.1-new'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/tecno/CK7n'
+        default: 'device/tecno/TECNO-CK7n'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
+        default: 'https://github.com/Shiotawa/twrp-device_transsion_mt6789-common.git'
       COMMON_PATH:
         description: 'COMMON_PATH (if no common tree, leave blank)'
         required: false
+        default: 'device/transsion/mt6789-common'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'CK7n'
+        default: 'TECNO-CK7n'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
